@@ -28,7 +28,6 @@ struct Args {
 }
 
 pub fn run(argv: &[&str]) -> CliResult<()> {
-    println!("RAW!");
     let args: Args = util::get_args(USAGE, argv)?;
 
     let rconfig = Config::new(&args.arg_input)
