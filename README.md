@@ -38,6 +38,7 @@ Dual-licensed under MIT or the [UNLICENSE](https://unlicense.org).
 * **partition** - Partition CSV data based on a column value.
 * **sample** - Randomly draw rows from CSV data using reservoir sampling (i.e.,
   use memory proportional to the size of the sample).
+* **raw** - Write raw values with no formatting or delimiters.
 * **reverse** - Reverse order of rows in CSV data.
 * **search** - Run a regex over CSV data. Applies the regex to each field
   individually and shows only matching rows.
